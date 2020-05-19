@@ -18,7 +18,8 @@ def isUniqueNoDS(text_string):
             return False
     return True
 
-# Create your own hash map approach
+# Create your own hash table approach
+# I read through the hints
 
 if __name__ == "__main__":
     print(isUniqueNoDS('mango'))
