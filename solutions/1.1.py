@@ -10,7 +10,6 @@ def isUnique(text_string):
 # Sort string approach
 def isUniqueNoDS(text_string):
     sorted_string = sorted(text_string)
-    print(sorted_string)
     for index, char in enumerate(sorted_string):
         if index == 0:
             next
